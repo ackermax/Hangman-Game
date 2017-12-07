@@ -1,5 +1,5 @@
 // making the wordbank
-var wordBank = ["Space Mountain", "Big Thunder Mountain Railroad", "Splash Mountain", "The Peoplemover", "Journey Into Imagination", "Mission: Space", "Frozen Ever After", "Avatar Flight of Passage", "Expedition: Everest", "The Twilight Zone Tower of Terror", "Toy Story Midway Mania", "Dinosaur", "Countdown to Extinction", "Test Track", "The Living Seas", "Spaceship Earth", "Reflections of China", "Jungle Cruise", "Illuminations: Reflections of Earth", "Rock 'n' Roller Coaster: Starring Aerosmith", "Rivers of Light", "Happily Ever After", "The American Adventure", "The Many Adventures of Winnie the Pooh", "The Enchanted Tiki Room", "Ellen's Energy Adventure", "The Universe of Energy", "World of Motion", "Horizons", "Fantasmic!", "Food Rocks", "Soarin'", "Soarin' Around the World", "The Great Movie Ride", "The Haunted Mansion", "If You Had Wings", "It's Tough to be a Bug!", "Kilimanjaro Safaris", "Kali River Rapids", "Lights, Motors, Action! Extreme Stunt Show", "Festival of the Lion King", "Peter Pan's Flight", "Tapestry of Nations", "Festival of Fantasy", "Dream Along With Mickey", "Under the Sea - Journey of the Little Mermaid"];
+var wordBank1 = ["Space Mountain", "Big Thunder Mountain Railroad", "Splash Mountain", "The Peoplemover", "Journey Into Imagination", "Mission: Space", "Frozen Ever After", "Avatar Flight of Passage", "Expedition: Everest", "The Twilight Zone Tower of Terror", "Toy Story Midway Mania", "Dinosaur", "Countdown to Extinction", "Test Track", "The Living Seas", "Spaceship Earth", "Reflections of China", "Jungle Cruise", "Illuminations: Reflections of Earth", "Rock 'n' Roller Coaster: Starring Aerosmith", "Rivers of Light", "Happily Ever After", "The American Adventure", "The Many Adventures of Winnie the Pooh", "The Enchanted Tiki Room", "Ellen's Energy Adventure", "The Universe of Energy", "World of Motion", "Horizons", "Fantasmic!", "Food Rocks", "Soarin'", "Soarin' Around the World", "The Great Movie Ride", "The Haunted Mansion", "If You Had Wings", "It's Tough to be a Bug!", "Kilimanjaro Safaris", "Kali River Rapids", "Festival of the Lion King", "Peter Pan's Flight", "Tapestry of Nations", "Festival of Fantasy", "Dream Along With Mickey", "Under the Sea - Journey of the Little Mermaid"];
 
 
 //making our base variables
@@ -49,9 +49,6 @@ function newWord() {
         }
         else if (selectedWord.charAt(i) == "!") {
             jWordContent.push("!");
-        }
-        else if (selectedWord.charAt(i) == ",") {
-            jWordContent.push(",");
         }
         else {
             jWordContent.push("_");
