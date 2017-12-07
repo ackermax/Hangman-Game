@@ -135,6 +135,7 @@ document.onkeyup = function (event) {
                 finalScore.textContent = numPoints;
                 buttonStart.className = "show";
                 endgame.className = "show";
+                correctChoice.className = "hide";
             }
         
         }
