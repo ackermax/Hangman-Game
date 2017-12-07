@@ -1,0 +1,98 @@
+@font-face{
+    font-family: "New Walt Disney";
+    src: url("../fonts/newWaltDisney.ttf");
+}
+@font-face{
+    font-family: "Prototype";
+    src: url("../fonts/prototype.ttf");
+}
+body {
+    background: black url("../images/background.jpg");
+    background-size: cover;
+    color: white;
+    font-family: "Prototype";
+}
+#game-space {
+    background-color: rgba(59, 59, 59, 0.75);
+    margin: 0 auto;
+    width: 650px;
+    border: 1.5px solid rgb(109, 109, 109);
+    padding: 25px;
+}
+h2 {
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 40px;
+    padding: 15px;
+    border: .5px solid rgb(109, 109, 109);
+    width: 90%;
+    word-spacing: 10px;    
+}
+
+ul {
+    text-align: center;
+}
+li {
+    display: inline-block;
+    border: .5px solid rgb(109, 109, 109);
+    margin: 10px 15px;
+    padding: 10px 25px;
+    line-height: 150%;
+}
+h3 {
+    text-align: center;
+    margin: 0 auto 15px auto;
+    font-size: 18px;
+}
+b {
+    border-bottom: 1px solid white;
+    margin: 0 auto 10px auto;
+}
+h1 {
+    font-family: "New Walt Disney";
+    text-align: center;
+    font-size: 50px;
+    margin: 25px auto;
+    margin-top: 0;
+    padding: 20px 0 10px 0;
+    border-bottom: 4px solid white;
+    background-color: rgb(89, 7, 221);
+}
+
+button {
+    background-color: rgb(11, 211, 177);
+    color: white;
+    font-size: 24px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 8px;
+    display: block;
+}
+#buttondiv {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+h5 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.hide {
+    visibility: hidden;
+    position: absolute;
+    top: -9999px;
+}
+
+.show {
+    visibility: visible;
+    position: static;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Walt Disney World Attraction Hangman</title>
+
+    <!-- Adding CSS here -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Walt Disney World Attraction Hangman</h1>
+    </header>
+    <div id="game-container">
+        <div id="endgame" class="hide">
+            <h4>Game over! You finished with a score of
+                <span id="final-score">x</span>. Try again?</h3>
+        </div>
+        <div id="buttondiv" class="show">
+            <button id="start-button" onclick="resetGame();">Click here to start!</button>
+        </div>
+        <!-- this should be hidden until the game starts -->
+        <div id="game-content" class="hide">
+            <div id="game-space">
+                <h3 id="correct-choice" class="hide">
+                    <span id="correct-word">WORD HERE</span> is right! Here's your next word:
+                </h3>
+                <span id="word-content">
+                    <h2 id="word-actual">BLANK IN FINAL</h2>
+                </span>
+
+                <ul id="info-space">
+                    <li>
+                        <b>Chances Left</b>
+                        <br>
+                        <span id="lives">n/a</span>
+                    </li>
+                    <li>
+                        <b>Points</b>
+                        <br>
+                        <span id="points">n/a</span>
+                    </li>
+                    <li>
+                        <b>Letters Guessed</b>
+                        <br>
+                        <span id="letters">THIS WILL BE BLANK IN FINAL</span>
+                    </li>
+                </ul>
+                <p>
+                    <h5>Type a letter and try to guess the Walt Disney World Resort attraction!</h5>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <audio src="assets/audio/energy.mp3" style="display:none" autoplay></audio>
+    <!-- JavaScript goes here to ensure compatibility with the HTML above -->
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
